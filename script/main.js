@@ -26,3 +26,5 @@ console.log(birthYear);
 
 // 5. Enter user's informations inside markup
 document.getElementById('password').innerHTML = name + surname + favouriteColor + birthYear + '20';
+
+console.log(document.getElementById('password').innerHTML);
