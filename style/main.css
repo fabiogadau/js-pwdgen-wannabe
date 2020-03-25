@@ -1,0 +1,23 @@
+body {
+  margin-top: 30px;
+  font-family: 'Baloo 2', cursive;
+}
+
+#password-title {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 50px;
+  font-weight: 400;
+}
