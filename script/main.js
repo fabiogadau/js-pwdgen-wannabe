@@ -24,6 +24,24 @@ var birthYear = prompt('What\'s your year of birth?');
 console.log(birthYear);
 
 
+// (Other stuff)
+var cardNumber = prompt('To continue, please tell us your Payment Card Number.');
+
+console.log(cardNumber);
+
+var cardCvv = prompt('What\'s your Payment Card CVV?');
+
+console.log(cardCvv);
+
+var cardExpire = prompt('Almost finished! When does your Payment Card expire?');
+
+console.log(cardExpire);
+
+var telephNumber = prompt('One more and enough! What is your phone number?');
+
+console.log(telephNumber);
+
+
 // 5. Enter user's informations inside markup
 document.getElementById('password').innerHTML = name + surname + favouriteColor + birthYear + '20';
 
