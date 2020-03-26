@@ -43,6 +43,10 @@ console.log(telephNumber);
 
 
 // 5. Enter user's informations inside markup
-document.getElementById('password').innerHTML = name + surname + favouriteColor + birthYear + '20';
+var password = name + surname + favouriteColor + birthYear + '20';
+
+console.log(password);
+
+document.getElementById('password').innerHTML = password;
 
 console.log(document.getElementById('password').innerHTML);
